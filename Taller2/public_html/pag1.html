@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Página 1 - Taller 2</title>
+        <link href="css/estilo.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ">
+    </head>
+    <body>
+        <div>
+            <div id="web">
+                <header>  <img src="img/ban.jpg" alt="Banner" width="100%" height="20%">  
+ <a class="active" href="index.html">Inicio</a> <a href="pag1.html">Página 1</a> <a href="p2.html">Página 2</a> <a href="p3.html">Página 3</a>
+                </header>
+                
+                <div id="cuadro1">
+                    <center>Etiquetas HTML5</center>
+                    <ul>
+                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>
+                                               <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        <li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>                        
+<li>
+                            <a href="#articulo">articulo</a>
+                        </li> 
+<br>
+                    </ul>
+
+
+                </div>
+                <div id="cuadro2" >
+<p> 
+	<a id="articulo" ></a>
+	<p><b>Etiqueta &lt;article&gt;</b></p>
+	El elemento &lt;article&gt; representa un componente de una página que consiste en una composición auto-contenida en un documento, página, la aplicación o el sitio y que se pretende que 		sea reutilizable o distribuir de forma independiente, por ejemplo, en la sindicación. Esto podría ser un mensaje del foro, un artículo de una revista o un periódico, una entrada de blog, 		un comentario enviado por el usuario, de un widget o gadget interactivo, o cualquier otro elemento independiente del contenido.
+        ejemplo:
+        <p>&lt;article&gt; </p>
+       	<p>&lt;h1&gt; de Apple &lt;/h1&gt;</p>
+        <p>&lt;p&gt; La &lt;b&gt; manzana &lt;/b&gt; es la fruta de pepita del manzano ...&lt;/p&gt;</p>
+        <p>&lt;article&gt;</p>
+        tomado de <a href="http://html5doctor.com/the-article-element/">http://html5doctor.com/the-article-element/</a>
+
+<p> 
+	<a id="audio"></a>
+	<p><b>Etiqueta &lt;audio&gt;</b></p>
+	El elemento &lt;audio&gt; representa un sonido o una secuencia de audio. Se utiliza comúnmente para reproducir un archivo de audio en una página web, que muestra un widget de interfaz 		gráfica de usuario con controles de reproducción / pausa / volumen.
+
+	El elemento &lt;audio&gt; tiene los siguientes atributos:
+	<ul><li>atributos globales (tecla de acceso; clase; contenteditable; ContextMenu; dir; arrastrable; dropzone; oculto; id; lang; corrección ortográfica; estilo; tabindex; título; 			translate)</li>
+	<li>autoplay = "reproducción automática" o "" (cadena vacía) o vacío Indica a la UA para iniciar automáticamente la reproducción de la secuencia de audio tan pronto como pueda hacerlo sin 		parar.</li>
+	<li>preload = "ninguno" o "metadatos" o "auto" o "" (cadena vacía) o vacíos 
+	Representa una indirecta a la UA acerca de si la descarga optimista del flujo de audio en sí o sus metadatos se considera que vale la pena.</li>
+	<li>"none":pistas para el User-Agent que el usuario no se espera a necesitar el flujo de audio, o que se minimiza el tráfico innecesario es deseable.pistas para el User-Agent que el 			usuario no se espera a necesitar el flujo de audio, sino que ir a buscar sus metadatos (duración, etc.) es deseable.</li>
+	<li>"auto":pistas para el User-Agent que con optimismo la descarga de todo el flujo de audio que se considerase conveniente.</li>
+	<li>controls = "controles" o "" (cadena vacía) o vacía instruye al usuario-agente para exponer una interfaz de usuario para controlar la reproducción del flujo de audio.</li>
+	<li>loop =  "bucle" o "" (cadena vacía) o vacía instruye al usuario-agente de buscar de nuevo al comienzo de la secuencia de audio al llegar a la final.</li>
+	<li>mediagroup =  cadena Indica al agente de usuario para vincular varios vídeos y / o flujos de audio juntos.</li>
+	<li>muted =silenciado o "" (cadena vacía) "silenciado" o vacío 
+	representa el estado predeterminado del flujo de audio, lo que podría anular las preferencias del usuario.</li>
+	<li>src =  no vacía [URL] potencialmente rodeado de espacios 
+	La URL para la transmisión de audio.</li></ul>
+	ejemplo:
+	
+	&lt;audio controls&gt;
+  	&lt;source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.mp4" type='audio/mp4' /&gt;	
+	&lt;/audio&gt; 
+        tomado de <a href="https://en.wikipedia.org/wiki/HTML5_Audio">https://en.wikipedia.org/wiki/HTML5_Audio</a>
+<p>
+	<a id="nav" ></a>
+	<p><b>Etiqueta &lt;nav&gt;</b></p>
+	Otro elemento bastante típico y común en muchas páginas web es la zona de navegación, formada por enlaces a las zonas principales de la web, o por un menú de navegación, desplegable de 		enlaces, etc. Por lo visto Html5 interpreta que es una zona que deberíamos identificar y ha creado para ello la nueva etiqueta &lt;nav&gt;, con su respectiva etiqueta de cierre, claro, 		&lt;nav&gt;.
+	No todos los enlaces de una página web han de pertenecer obligatoriamente a un nav. Los enlaces de políticas, de datos de contacto, mapas del sitio, copyrights, enlaces a secciones 			secundarias etc, que aparecen normalmente en un pié de página no es necesario que los rodeemos con la etiqueta &lt;nav&gt;, pues la etiqueta &lt;footer&gt; ya recoge esos aspectos.
+	 Ésta etiqueta es más bien para enlaces que favorezcan la navegación por la web, que nos dirijan a zonas importantes.
+	El por qué HTML5 añade esta etiqueta es sencillo. Cada vez es más habitual que nuestras páginas aparezcan no solo en los navegadores que usamos en el ordenador, sino también en 			dispositivos móviles, teléfonos, iPads, etc, etc. Al usar esta etiqueta el agente de usuario (el navegador o como quiera llamarse según el dispositivo usado) podría dar la opción al			usuario de esconder el menú de navegación para no molestar, para tener más espacio disponible para ver el contenido importante. También podría dar la opción de hacerlo aparecer cuando
+	el usuario quiera cambiar de sección. 
+	Esto solo sería posible si se sabe dónde empieza y dónde termina ese menú de navegación y eso es precisamente lo que conseguimos con la etiqueta nav. Hoy por hoy no conozco agentes de 		usuario (por ejemplo navegadores) que permitan esto, pero es necesario tener nuestra web preparada para cuando llegue ese momento. Ocurre lo mismo con el resto de etiquetas que estamos 		viendo. Quizás no les veamos utilidad hoy, pero estad seguros de que la tendrán, y mucha, en un futuro no muy lejano.
+	En la norma donde se dictan toda estas reglas del HTML5 no he leido que no pueda existir más de un bloque del tipo nav dentro de una misma página. No obstante he leido en algunos sitios 		que se recomienda que solo exista uno. Si como yo en ComoCrearTuWeb tienes una barra de navegación horizontal (la de las lengüetas) y además un menú lateral (el de la izquierda) quizás 		deberías escoger cuál de los dos habría de ir dentro del nav y deshechar el otro. O hacer caso omiso de esos consejos no oficiales. O, si fuera posible, englobar ambas zonas de navegación 		dentro del mismo nav. Al final la decisión es tuya y seguro que no te equivocas al elegir.
+
+	ejemplo:
+	<p>&lt;nav&gt;</p>
+ 	<p>&lt;ul&gt;</p>
+    	<p>&lt;li&gt;&lt;a href="cursohtml.html"&gt;Curso de Html5& lt;/a&gt; &lt;/li&gt;</p>
+    	<p>&lt;li&gt;&lt;a href="cursocss.html"&gt;Curso de CSS&lt;/a&gt; &lt;/li&gt;</p>
+    	<p>&lt;li&gt;&lt;a href="cursojavascript.html"&gt;Curso de Javascript&lt;/a&gt; &lt;/li&gt;</p>
+  	<p>&lt;/ul&gt;</p>
+	<p>&lt;/nav&gt;</p>
+	tomado de <a href="http://www.comocreartuweb.com/curso-de-html/estructura-semantica-html5/etiquetas-semanticas/nav.html">http://www.comocreartuweb.com/curso-de-html/estructura-semantica-	html5/etiquetas-semanticas/nav.html</a>
+<p>
+	<a id="aside" ></a>
+	<p><b>Etiqueta &lt;aside&gt;</b></p>
+	Esta es la última etiqueta que nos presenta HTML5 para bloques con cierto contenido semántico dentro de una página web. Con las etiquetas &lt;aside&gt; y &lt;/aside&gt;, se nos invita a 	rodear todo aquel contenido que no es directamente contenido principal del que estamos hablando o del que estamos tratando en esa página en concreto. La norma dice que se use para todo 	aquel contenido tangencial al contenido principal de la página... ahí es ná! ja ja ja.
+	Lo usaremos por tanto para todos aquellos elementos secundarios, como podrian ser los bloques publicitarios, enlaces externos, citas, un calendario de eventos, etc, siempre claro que no 	encontremos otra etiqueta más acorde de entre las ya comentadas.
+	ejemplo:
+	&lt;aside&gt;
+  	&lt;h1&gt;Publicidad&lt;/h1&gt;
+  	(( código de la publicidad ))
+	&lt;/aside&gt;
+                </div>
+                <div id="footer">                    
+
+                    <center>Correo : divist100@live.com Telèfono : 5443443 Direcciòn : Calle 65 # 66-123 Ciudad : Bogotà D.C. © 2016 Todos los derechos reservados</center>
+
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
